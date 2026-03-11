@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя биография и хобби</title>
+    <!-- Подключаем шрифт Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Наш CSS -->
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Иван Петров</h1>
+            <p class="header__subtitle">Личная страница</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#bio" class="nav__link">Биография</a></li>
+                <li class="nav__item"><a href="#hobby" class="nav__link">Хобби</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Секция биографии -->
+        <section id="bio" class="section bio">
+            <div class="container">
+                <h2 class="section__title">Биография</h2>
+                <div class="bio__content">
+                    <img src="https://via.placeholder.com/300x300" alt="Фото профиля" class="bio__photo">
+                    <div class="bio__text">
+                        <p>Меня зовут Иван Петров. Родился и вырос в Москве. С детства увлекаюсь компьютерами и творчеством. После школы поступил в Московский технический университет на факультет информационных технологий, который окончил с отличием.</p>
+                        <p>Сейчас работаю frontend-разработчиком в веб-студии. В свободное время люблю изучать новое, фотографировать и путешествовать. Верю, что хобби делают жизнь ярче, а саморазвитие никогда не должно останавливаться.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция хобби -->
+        <section id="hobby" class="section hobby">
+            <div class="container">
+                <h2 class="section__title">Мои хобби</h2>
+                <div class="hobby__cards">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x250" alt="Чтение" class="card__image">
+                        <h3 class="card__title">Чтение книг</h3>
+                        <p class="card__desc">Люблю научную фантастику и классику. Книги помогают отвлечься и найти вдохновение.</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x250" alt="Путешествия" class="card__image">
+                        <h3 class="card__title">Путешествия</h3>
+                        <p class="card__desc">За последние два года посетил 5 стран. Мечтаю увидеть северное сияние.</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x250" alt="Фотография" class="card__image">
+                        <h3 class="card__title">Фотография</h3>
+                        <p class="card__desc">Увлекаюсь уличной и пейзажной съёмкой. Иногда снимаю на плёнку.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция контактов (для полноты) -->
+        <section id="contacts" class="section contacts">
+            <div class="container">
+                <h2 class="section__title">Контакты</h2>
+                <p>Вы можете связаться со мной по email: <a href="mailto:ivan@example.com">ivan@example.com</a></p>
+                <p>Или подписаться на мой Instagram: <a href="#">@ivan_petrov</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Иван Петров. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
